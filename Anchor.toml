@@ -1,12 +1,12 @@
 [programs.localnet]
-twitter_dapp_solana = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+twitter_dapp_solana = "8MHS3bdh7Q2TSz3aTy1RzrbwujYjn4uJcNdW5pe7o3Z1"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
 cluster = "localnet"
-wallet = "/Users/freddietantoco/.config/solana/id.json"
+wallet = "/Users/freddietantoco/.config/solana/local.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
